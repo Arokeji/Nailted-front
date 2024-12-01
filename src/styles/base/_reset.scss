@@ -1,0 +1,40 @@
+@import "../../styles/utilities/variables";
+
+body,
+html,
+#root {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: $background-generic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+// Shortcuts
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  color: $font-color-light;
+  background-color: $font-color-light;
+}
